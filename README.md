@@ -20,7 +20,7 @@ The model uses a **Siamese-style architecture** with three identical branches th
 
 ### Key Technical Innovations:
 1.  **Manual Convolution:** Implemented using `F.unfold` and matrix multiplication to reconstruct the convolution operation from scratch.
-2.  **Mish Activation:** Replaced standard ReLU with a manual implementation of **Mish** ($x \cdot \tanh(\ln(1+e^x))$) for smoother gradient flow.
+2.  **Mish Activation:** Replaced standard ReLU with a manual implementation of **Mish** for smoother gradient flow.
 3.  **High-Performance Training:** Optimized for Dual-T4 GPUs using **Mixed Precision (AMP)** and `OneCycleLR` scheduling.
 4.  **Handling Imbalance:** Solved a 3:1 class imbalance using **Class-Weighted Cross-Entropy Loss**, achieving >90% recall on rare classes.
 
@@ -42,7 +42,7 @@ The model demonstrates excellent separation of classes, with a nearly perfect di
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/YOUR_USERNAME/triple-input-cnn-classification.git](https://github.com/YOUR_USERNAME/triple-input-cnn-classification.git)
+    git clone [https://github.com/harshspandey/triple-input-cnn-classification.git](https://github.com/YOUR_USERNAME/triple-input-cnn-classification.git)
     cd triple-input-cnn-classification
     ```
 
