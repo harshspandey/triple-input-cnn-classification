@@ -12,7 +12,7 @@ To demonstrate a first-principles understanding of Deep Learning, this model was
 
 Instead, I implemented the core mathematical operations (Convolution via `im2col`, Batch Normalization, and Max Pooling) using raw tensor math.
 
-## 🧠 Model Architecture: "The Diamond"
+## 🧠 Model Architecture:
 
 
 
