@@ -42,7 +42,7 @@ The model demonstrates excellent separation of classes, with a nearly perfect di
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/harshspandey/triple-input-cnn-classification.git](https://github.com/YOUR_USERNAME/triple-input-cnn-classification.git)
+    git clone https://github.com/harshspandey/triple-input-cnn-classification.git
     cd triple-input-cnn-classification
     ```
 
